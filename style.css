@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f7fa;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e3ea;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  nav .active {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .left {
+    text-align: center;
+  }
+  
+  .section-number {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .moon-image img {
+    width: 300px;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .right {
+    max-width: 400px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    color: #333;
+    border-bottom: 2px solid #333;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .label {
+    display: block;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .value {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
